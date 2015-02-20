@@ -1,6 +1,14 @@
+/* Defaults
+******************/
+
 html, body {
   background-color: transparent;
   font-family: 'Pontano Sans', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: transparentize(#E66107,.3);
 }
 
 /* Header
