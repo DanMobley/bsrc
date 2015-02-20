@@ -4,6 +4,9 @@ Rails.application.routes.draw do
     get :home
     get :research
     get :contact
+    get :services
+    get :staff
+    get :facility
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

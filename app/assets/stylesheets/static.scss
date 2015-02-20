@@ -63,7 +63,38 @@ html, body {
 .footer {
   background-color: #777;
   color: transparentize(white, .2);
+  padding-top:10px;
+  width:100%;
+  ul {
+    list-style-type: none;
+    padding-left:0px;
+    p {
+      padding: 0px;
+      font-weight:400;
+      font-size:12px;
+      margin-bottom:10px;
+      color: white;
+      color: rgba(255,255,255,.7);
+    }
+    p.address {
+      font-weight:300;
+      margin-bottom:0px;
+      color: rgba(255,255,255,.9);
+    }
+    li {
+      a {
+        font-size:14px;
+        color: white;
+        font-weight:300;
+      }
+      a:hover {
+        text-decoration: none;
+        color: transparentize(#E66107,.3);
+      }
+    }
+  }
 }
+
 
 /* Responsive Components
 ************************/

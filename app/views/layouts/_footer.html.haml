@@ -10,17 +10,17 @@
     .col-sm-2.col-xs-3
       %ul
         %p BSRC
-        %li About
-        %li Research
-        %li Services
+        %li= link_to 'Home', home_path
+        %li= link_to 'Research', research_path
+        %li= link_to 'Services', services_path
     .col-sm-2.col-xs-3
       %ul
         %p.small About
-        %li Staff
-        %li Facility
-        %li Policy
+        %li= link_to 'Staff', staff_path
+        %li= link_to 'Facility', facility_path
+        %li= link_to 'Contact Us', contact_path
     .col-sm-2.col-xs-6
       %ul
-        %p.f300.small{style: 'margin-left:5px;'} Contact Us
+        %p.f300.small{style: 'margin-left:5px;'}
     .col-md-2.col-md-offset-1.col-sm-3.col-sm-offset-0.hidden-xs
       = link_to image_tag("bwh-logo_3x1.png", class: "img-responsive", id: "partner-BWH"), 'http://www.brighamandwomens.org/'

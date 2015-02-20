@@ -7,4 +7,13 @@ class StaticController < ApplicationController
 
   def contact
   end
+
+  def services
+  end
+
+  def staff
+  end
+
+  def facility
+  end
 end

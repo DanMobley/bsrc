@@ -16,4 +16,19 @@ class StaticControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get facility" do
+    get :facility
+    assert_response :success
+  end
+
+  test "should get services" do
+    get :services
+    assert_response :success
+  end
+
+  test "should get staff" do
+    get :staff
+    assert_response :success
+  end
+
 end
