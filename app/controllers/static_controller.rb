@@ -4,4 +4,7 @@ class StaticController < ApplicationController
 
   def research
   end
+
+  def contact
+  end
 end

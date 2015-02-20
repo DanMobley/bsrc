@@ -1,6 +1,9 @@
-@import 'bsrc-variables';
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+@import "bsrc-variables";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-@import 'static';
-@import 'research';
+@import "static";
+@import "research";
+@import "contact";

@@ -1,0 +1,22 @@
+#contact-container {
+  a:hover {
+    text-decoration: none;
+    color: transparentize(#E66107,.1);
+  }
+  .fa {
+    background-color: #E66107;
+    color: #fff;
+    font-size: 16px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 12.5px;
+  }
+  p {
+    font-size: 20px;
+  }
+  p.address {
+    font-weight:300;
+    margin-bottom:0px;
+  }
+}

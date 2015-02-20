@@ -13,6 +13,7 @@ gem 'figaro',               '~> 1.1.0'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'autoprefixer-rails'
+gem 'font-awesome-sass'
 
 # Rails Defaults
 gem 'coffee-rails',         '~> 4.1.0'
