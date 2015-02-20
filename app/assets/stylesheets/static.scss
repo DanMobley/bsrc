@@ -1,3 +1,88 @@
-// Place all the styles related to the Static controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  background-color: transparent;
+}
+
+/* Header
+******************/
+.navbar {
+  margin-bottom:0px;
+}
+#navbar-brand {
+  display: block;
+  width:80%;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+.navbar-toggle {
+  float: left;
+  margin-left:15px;
+}
+
+/* Main Content
+********************/
+#container-main {
+  position: relative;
+  background-color: #eee;
+  padding: 30px;
+}
+#container-left {
+  background-color: #E66107;
+  padding: 20px;
+}
+#container-right {
+  background-color: white;
+  padding: 20px 30px;
+}
+
+/* Footer
+******************/
+.footer {
+  background-color: #777;
+  color: transparentize(white, .2);
+}
+
+/* Responsive Components
+************************/
+@media all and (max-width: $screen-xs-max) {
+  #container-left {
+    margin-left: -100%;
+    float: left;
+  }
+  #container-left.active-nav {
+    margin-left: 0px;
+    width:80%;
+  }
+  #container-right {
+    margin-left: 0px;
+    float: left;
+    width: 100%;
+  }
+  #container-right.active-nav {
+    margin-right:-90%;
+    float: right;
+  }
+}
+
+@media all and (min-width: $screen-sm-min) {
+  #container-left {
+    margin-left: 0px;
+    float: left;
+    width: 25%;
+    margin: 2.5%;
+  }
+  #container-right {
+    margin-left: 0px;
+    float: left;
+    width: 67.5%;
+    margin: 2.5% 0;
+  }
+}
+
+@media all and (min-width: $screen-md-min) {
+
+}
+
+@media all and (min-width: $screen-lg-min) {
+
+}
