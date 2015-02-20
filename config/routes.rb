@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   scope module: 'static' do
+    get :theme
     get :home
     get :research
     get :contact

@@ -1,4 +1,7 @@
 class StaticController < ApplicationController
+  def theme
+  end
+
   def home
   end
 

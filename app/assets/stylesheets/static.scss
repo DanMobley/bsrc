@@ -8,7 +8,7 @@ html, body {
 
 a:hover {
   text-decoration: none;
-  color: transparentize(#E66107,.3);
+  color: transparentize($primary-base,.3);
 }
 
 /* Header
@@ -40,7 +40,7 @@ a:hover {
   padding: 30px;
 }
 #container-left {
-  background-color: #E66107;
+  background-color: $primary-base;
   padding: 20px;
   border-radius:5px;
   ul.nav-list {
@@ -97,7 +97,7 @@ a:hover {
       }
       a:hover {
         text-decoration: none;
-        color: transparentize(#E66107,.3);
+        color: transparentize($primary-base,.3);
       }
     }
   }

@@ -16,12 +16,52 @@
 // $gray-light:             lighten($gray-base, 46.7%) // #777
 // $gray-lighter:           lighten($gray-base, 93.5%) // #eee
 
-// $brand-primary:         darken(#428bca, 6.5%) // #337ab7
-// $brand-success:         #5cb85c
-// $brand-info:            #5bc0de
-// $brand-warning:         #f0ad4e
-// $brand-danger:          #d9534f
+// $brand-primary:         darken(#428bca, 6.5%); // #337ab7
+// $brand-success:         #5cb85c;
+// $brand-info:            #5bc0de;
+// $brand-warning:         #f0ad4e;
+// $brand-danger:          #d9534f;
 
+$primary-base:          #E66107;
+$primary-light:         #FA8536;
+$primary-lighter:       #FFA161;
+$primary-dark:          #B84A00;
+$primary-darker:        #8F3A00;
+
+$secondary-base:          #04927A;
+$secondary-light:         #229F8A;
+$secondary-lighter:       #42AF9D;
+$secondary-dark:          #007461;
+$secondary-darker:        #005B4B;
+
+.primary { color: $primary-base; }
+.primary-light { color: $primary-light; }
+.primary-lighter { color: $primary-lighter; }
+.primary-dark { color: $primary-dark; }
+.primary-darker { color: $primary-darker; }
+
+.secondary { color: $secondary-base; }
+.secondary-light { color: $secondary-light; }
+.secondary-lighter { color: $secondary-lighter; }
+.secondary-dark { color: $secondary-dark; }
+.secondary-darker { color: $secondary-darker; }
+
+.primary-bcg { background-color: $primary-base; }
+.primary-light-bcg { background-color: $primary-light; }
+.primary-lighter-bcg { background-color: $primary-lighter; }
+.primary-dark-bcg { background-color: $primary-dark; }
+.primary-darker-bcg { background-color: $primary-darker; }
+
+.secondary-bcg { background-color: $secondary-base; }
+.secondary-light-bcg { background-color: $secondary-light; }
+.secondary-lighter-bcg { background-color: $secondary-lighter; }
+.secondary-dark-bcg { background-color: $secondary-dark; }
+.secondary-darker-bcg { background-color: $secondary-darker; }
+
+.white { color: white; }
+.white-bcg { background-color: white; }
+.black { color: black; }
+.black-bcg { background-color: black; }
 
 //== Scaffolding
 //
@@ -50,16 +90,16 @@
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 // $font-family-base:        $font-family-sans-serif
 
-// $font-size-base:          14px
-// $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
-// $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
+$font-size-base:          14px;
+$font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
 
-// $font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
-// $font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
-// $font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
-// $font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
-// $font-size-h5:            $font-size-base
-// $font-size-h6:            ceil(($font-size-base * 0.85)) // ~12px
+$font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.5)); // 21px
+$font-size-h5:            ceil(($font-size-base * 1.35));
+$font-size-h6:            ceil(($font-size-base * 1.15)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
 // $line-height-base:        1.428571429 // 20/14
