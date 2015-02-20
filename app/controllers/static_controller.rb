@@ -19,4 +19,7 @@ class StaticController < ApplicationController
 
   def facility
   end
+
+  private
+
 end
