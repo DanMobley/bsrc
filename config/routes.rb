@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   scope module: 'static' do
     get :home
+    get :research
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
