@@ -1,1 +1,26 @@
 %h1 Facility
+
+%h3 Brigham and Women's Hospital
+%p
+  In total, the resources and environment of Brigham and Women's Hospital and Harvard Medical School,including the Harvard Catalyst, the Brigham and Women's Partner's Research Information Technology group, and the Division of Sleep and Circadian Disorders’ laboratory and office areas provide a robust environment for supporting the goals of the Boston Sleep Research Center.
+
+%h3 Office and Laboratory
+%p
+  Approximately 4000 square ft of space has been renovated on a single floor to support the Boston Sleep Research Center and accompanying academic programs. This includes customized areas for a Chief Polysomnologist, a scoring station to support 6 research polysomnologists, a data management area to support 6 data managers, and a conference room with video equipment to allow the projection of sleep studies for group review and training. In addition, new office space is available for 4 faculty members and several program administrators and study coordinators.
+
+%h3 Computers and Networking
+%h6.bold Partners Health Service {PHS) Research IT Facilities Infrastructure
+%p
+  Partners Information Services (IS), a division within Partner Healthcare Systems (PHS), manages all data and voice communication networks as weir as other core infrastructure systems and applications across the Partners environment with a budget of over $300M per annum. The PHS data network provides 100 Mb/s Ethernet connections to the desktop with 1 Gb/s access layer connections to the core. The network core consists of redundant fiber optic backbones capable of 10 Gb/s among the 4 major datacenters in MGH Boston, Charlestown, BWH Longwood Medical Area, and Needham MA. 1 Gb/s connections are provided to instruments and systems for users with higher bandwidth requirements. Additionally within the Research Computing neighborhood of the Needham MA datacenter, 10 Gb/s connections are provided directly to bandwidth intensive system including storage and HPC. Partners is connected to the lnternet2 via a 1 Gb/s link via its ISP, Harvard University. Redundancy is maintained from all areas of the network to the single ISP. Infrastructure services and key applications are accessible to authorized users from any Windows, Macintosh, or Unix workstation with access to the PHS network.
+
+%h6.bold Cloud Computing and Storage
+%p
+  The Discovery Informatics Platform for Research (DIPR) provides to research grants a set of virtual services that are maintained using enterprise-class IT systems within the Partners secure data center and within the Partners network. These services consist of virtual servers for web or application hosting on either Windows or Linux systems, file storage and database hosting and management.
+%p
+  DIPR exists within a secure network that is managed by PHS Information Security. Requests made to the public facing proxy are encrypted and routed to the secure DIPR server. DIPR consists of a 16-node VMWare ESX cluster. Each node is an HP BL460c with 32GB of RAM & 8 Intel Xeon 3GHz x64 cores. Guest operating systems achieve a level of High Availability via VMWare's VMotion technology, which seamlessly moves a guest from one physical server to another in the event of a machine failure. Structured data can be stored within MySQL, PostgreSQL or Oracle clustered database that each are maintained on dedicated hardware systems consisting of at least 64GB RAM and 16 CPU's. Finally unstructured data can be stored on a file server connected to the cloud for small storage requirements. For larger requirements, research computing maintains a storage system able to scale into petabytes for file storage. The latter is provided at a minimal cost to the research community.
+%p
+  The virtual services and databases are backed up nightly via the enterprise backup system, IBM Tivoli Storage Management, and maintained on encrypted storage tapes that are stored off site.
+
+%h6.bold Software and Web Development
+%p
+  The Boston Sleep Research Center uses cutting-edge open-source software development tools to create secure, scalable, and reusable software. Agile software development is used to gather end-user feedback and release updates on a weekly basis. Test-driven development methodology creates robust application code and prevents regression of prior functionality. Tiered servers, development, quality assurance, and production, and an extensive testing suite allow for thorough testing of application code before a production level release. Software version control is managed using Git version control repository that allows branching of application code. The web applications leverage Ruby on Rails and Ruby Gems to modularize and refactor common code. The user interfaces are designed using jQuery and HTML5 to create a consistent cross-browser and cross-platform experience.

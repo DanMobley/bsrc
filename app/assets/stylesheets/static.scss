@@ -11,6 +11,15 @@ a:hover {
   color: transparentize($primary-base,.3);
 }
 
+.f300 { font-weight: 300; }
+.f400 { font-weight: 400; }
+.f500 { font-weight: 500; }
+.f600 { font-weight: 600; }
+.f700 { font-weight: 700; }
+
+.bold { font-weight: bold; }
+.light { font-weight: lighter; }
+
 /* Header
 ******************/
 .navbar {
