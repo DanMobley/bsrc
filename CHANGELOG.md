@@ -3,6 +3,7 @@
 ### Enhancements
 - Use of Ruby 2.2.2 is now recommended
 - **Gem Changes**
+  - Updated to rails 4.2.1
   - Updated to pg 0.18.2
 
 ## 0.0.0 (February 18, 2015)
