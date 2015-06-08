@@ -5,6 +5,7 @@
 - **Gem Changes**
   - Updated to rails 4.2.1
   - Updated to pg 0.18.2
+  - Updated to simplecov 0.10.0
 
 ## 0.0.0 (February 18, 2015)
 
