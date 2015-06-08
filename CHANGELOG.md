@@ -1,6 +1,7 @@
 ## 0.1.0
 
 ### Enhancements
+- Added OpenSans font library
 - Use of Ruby 2.2.2 is now recommended
 - **Gem Changes**
   - Updated to rails 4.2.1
